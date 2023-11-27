@@ -7,25 +7,49 @@
 An in-depth setup and working guide for IdentiPi is available on this github. 
 
 ### Features:
-- Onboard Fingerprint sensor module 
-- 1.14" TFT Display for user interaction
-- 5-Way Joystick for adding additional controls in project
-- Fingerprint scan status LED
-- Compatible Raspberry Pi Pico / Pico W
+- Onboard Fingerprint Sensor module
+- HAT compatible with Raspberry Pico/Pico W 
+- Status LED for Fingerprint scan indication.
+- Fingerprint sensor Serial TX/RX pin breakout 
+- 1.14” Display for visual interaction in your project
+- 5-Way Joystick for adding additional control features in project
+
 
 ### Specifications:
-- Board supply voltage is 5V
-- Operating Pin voltage is 3.3V
-- Display Size: 1.14"
-- Display Type: TFT
-- Display Resolution:  135 X 240 pixels
-- Display colors: 65K RGB
-- Display interface: SPI
-- Display Driver: ST7789
-- Operating Temperature: -20°C to 70°C
+- Microcontroller Support: Raspberry Pi Pico / Pico W
+- Board Supply voltage: 5V
+- Board Operating Voltage: 3.3V
+- Display:
+ 	* Display Size: 1.14"
+ 	* Display Type: TFT
+ 	* Display Resolution:  135(H) X 240(V) pixels
+ 	* Display colors: 65K/262K RGB
+ 	* Luminance(cd/m2): 400(TYP)
+ 	* Display interface: SPI
+ 	* Display Driver: ST7789V
 - Fingerprint Sensor:
-  * 
-  * 
+  * Sensor type: capacitive touching
+  * Resolution: 508DPI
+  * Image pixels: 192×192
+  * Image grey scale: 8
+  * Sensor size: R15.5mm
+  * Fingerprint capacity: 500
+  * Matching time: <500ms (1:N, and N≤100)
+  * False acceptance rate: <0.001%
+  * False rejection rate: <0.1%
+  * Operating voltage: 2.7~3.3V
+  * Operating current: <50mA
+  * Sleep current: <16uA
+  * Anti-electrostatic: contact discharge 8KV / aerial discharge 15KV
+  * Interface: UART
+  * Baudrate: 19200 bps
+  * Life: 1 million times
+- Operating environment:
+ 	* Temperature: -20°C~70°C
+ 	* Humidity: 40%RH~85%RH (no condensation)
+- Storage environment:
+ 	* Temperature: -40°C~85°C
+ 	* Humidity: <85%RH (no condensation)
 
 
 ## Getting Started with IdentiPi
