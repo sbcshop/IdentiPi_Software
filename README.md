@@ -3,6 +3,7 @@
 <!--
 <img src="https://cdn.shopify.com/s/files/1/1217/2104/files/FingerprintHATforPico.jpg?v=1683529552">
 -->
+Fingerprint HAT for Raspberry Pi Pico - an innovative solution for secure biometric authentication. This HAT is an ideal tool for developing unique projects, Experience rapid and stable fingerprint verification with our Fingerprint HAT.
 
 An in-depth setup and working guide for IdentiPi is available on this github. 
 
@@ -100,6 +101,7 @@ When Raspberry Pico W connected with HAT following pins consumed by Pico W,
   
  
 - Breakout GPIOs
+  
 <!-- 
 ### 1. Step to install boot Firmware
    - Every IdentiPi board will be provided with boot firmware already installed, so you can skip this step and directly go to [step 2](https://github.com/sbcshop/PiBeam_Software#2-onboard-led-blink).
@@ -155,15 +157,17 @@ When Raspberry Pico W connected with HAT following pins consumed by Pico W,
   * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [RP2040 Datasheet](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
 
+-->
 
 ## Related Products
-  * [ReadPi NFC](https://shop.sb-components.co.uk/products/readpi-an-rfid-nfc-reader-powered-with-raspberry-pi-pico-w?variant=40478483087443) - ReadPi with 13.56MHz NFC reader/writer powered by Raspberry Pi Pico W
-  * [ArdiPi](https://shop.sb-components.co.uk/collections/latest-collections/products/ardipi-uno-r3-alternative-board-based-on-pico-w) - Arduino Uno form factor variants based on Raspberry Pi Pico W
-  * [3.2" Touchsy Pico W](https://shop.sb-components.co.uk/collections/pre-order/products/touchsy-3-2-touch-lcd-display-based-on-pico-w) - 3.2" Touchsy Pico W with Resistive and Capacitive version.
-  * [1.14” LCD HAT](https://shop.sb-components.co.uk/products/1-14-lcd-hat-for-pico) - 1.14” LCD HAT for Pico is a 1.14-inch display expansion board module of 240×135 resolution.
-  * [1.14” LCD breakout](https://shop.sb-components.co.uk/products/1-14-inch-lcd-breakout) - The 1.14” LCD breakout is colorful and easy to experiment with graphics.
-    
--->
+  * [USB Fingerprint](https://shop.sb-components.co.uk/products/usb-fingerprint?_pos=1&_sid=1a14e781e&_ss=r) 
+
+ ![USB Fingerprint](https://shop.sb-components.co.uk/cdn/shop/products/usbfingerprintboard.png?v=1627629405&width=300)
+ 
+ * [PiFinger | Fingerprint HAT for Raspberry Pi](https://shop.sb-components.co.uk/products/pifinger-fingerprint-hat-for-raspberry-pi?_pos=1&_sid=1b596a7b4&_ss=r)
+ 
+ ![PiFinger](https://shop.sb-components.co.uk/cdn/shop/products/FingerprintforRaspberryPi.png?v=1615200690&width=300)
+ 
 ## Product License
 
 This is ***open source*** product. Kindly check LICENSE.md file for more information.
