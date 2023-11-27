@@ -100,19 +100,9 @@ When Raspberry Pico W connected with HAT following pins consumed by Pico W,
   
  
 - Breakout GPIOs
-  | Pico W |Physical Pin | Multi-Function |
-  |---|---|---|
-  |GP0 | 1  | General IO / SPI0 RX / I2C0 SDA / UART0 TX |
-  |GP1 | 2 | General IO / SPI0 CSn / I2C0 SCL / UART0 RX |
-  |GP2 | 4 | General IO / SPI0 SCK / I2C1 SDA |
-  |GP3 | 5 | General IO / SPI0 TX / I2C1 SCL |
-  |GP6 | 9 | General IO / SPI0 SCK / I2C1 SDA |
-  |GP7 | 10 | General IO / SPI0 TX / I2C1 SCL |
-  |GP28| 34 | General IO / ADC2 / SPI1 RX |
-
 <!-- 
 ### 1. Step to install boot Firmware
-   - Every PiBeam board will be provided with boot firmware already installed, so you can skip this step and directly go to [step 2](https://github.com/sbcshop/PiBeam_Software#2-onboard-led-blink).
+   - Every IdentiPi board will be provided with boot firmware already installed, so you can skip this step and directly go to [step 2](https://github.com/sbcshop/PiBeam_Software#2-onboard-led-blink).
    - If in case you want to install firmware for your PiBeam, Push and hold the BOOT button and plug your PiBeam into the USB port of your computer. Release the BOOT button after your PiBeam is connected to USB port.
    - It will mount as a Mass Storage Device called RPI-RP2.
    - Drag and drop the MicroPython UF2 - [PiBeam_firmware](https://github.com/sbcshop/PiBeam_Software/blob/main/PiBeam_firmware.uf2) file provided in this github onto the RPI-RP2 volume. Your PiBeam will reboot. You are now running MicroPython on PiBeam.
