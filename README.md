@@ -1,8 +1,7 @@
 # IdentiPi_Software
 
-<!--
-<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/FingerprintHATforPico.jpg?v=1683529552">
--->
+<img src="https://github.com/sbcshop/IdentiPi_Software/blob/main/images/IdentiPi_banner.jpg">
+
 Fingerprint HAT for Raspberry Pi Pico - an innovative solution for secure biometric authentication. This HAT is an ideal tool for developing unique projects, Experience rapid and stable fingerprint verification with our Fingerprint HAT.
 
 An in-depth setup and working guide for IdentiPi is available on this github. 
@@ -36,12 +35,6 @@ An in-depth setup and working guide for IdentiPi is available on this github.
   * Sensor size: R15.5mm
   * Fingerprint capacity: 500
   * Matching time: <500ms (1:N, and N≤100)
-  * False acceptance rate: <0.001%
-  * False rejection rate: <0.1%
-  * Operating voltage: 2.7~3.3V
-  * Operating current: <50mA
-  * Sleep current: <16uA
-  * Anti-electrostatic: contact discharge 8KV / aerial discharge 15KV
   * Interface: UART
   * Baudrate: 19200 bps
   * Life: 1 million times
@@ -57,7 +50,7 @@ An in-depth setup and working guide for IdentiPi is available on this github.
 ### Hardware Overview
 #### Pinout
 
-<img src="">
+<img src="https://github.com/sbcshop/IdentiPi_Software/blob/main/images/IdentiPi_pinout.jpg">
 
 - (1) Type A 
 - (2) Programmable LED
@@ -71,7 +64,8 @@ An in-depth setup and working guide for IdentiPi is available on this github.
 
 ### Interfacing Details
 
-When Raspberry Pico W connected with HAT following pins consumed by Pico W, 
+<img src="">
+When Raspberry Pico W connected with HAT following pins consumed,  
 
 - Fingerprint Module interfacing info
   | Pico | Fingerprint Sensor | Function |
@@ -133,31 +127,27 @@ When Raspberry Pico W connected with HAT following pins consumed by Pico W,
    - Here, we need only one library file [PiBeam.py](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/PiBeam.py) for most of our code to try out, so move this to PiBeam with default name
 
    
- 
+-->
+
 ### Example Codes
-   Save whatever example code file you want to try as **main.py** in **PiBeam** as shown in above [step 3](https://github.com/sbcshop/PiBeam_Software/tree/main#3-how-to-move-your-script-on-pibeam), also add related library files with default name.
-   In [example](https://github.com/sbcshop/PiBeam_Software/tree/main/examples) folder you will find demo example script code to test onboard components of PiBeam like 
-   - [Button and LED](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/button_demo.py) : code to test programmable buttons and LED
-   - [SD card](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/sdcard_demo.py) : code to test micro SD card basic operations
-   - [IR Transmitter](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/transmitter_demo.py) : Demo code to test IR data transmission
-   - [IR Receiver with LCD](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/Receiver_LCD_sdcard_demo.py): Demo code to check received IR data on TFT display. Change protocol options as per your remote.
-     
-     To try below HID codes follow instructions provided on [link](https://github.com/sbcshop/PiBeam_Software/tree/main/examples/HID_example_circuitpython)
-   - [Control PC Camera using PiBeam](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/HID_example_circuitpython/Demo_CameraOn_code.py) : This demo code opens windows PC camera when power button of TV remote pressed.
-   - [Display Images](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/HID_example_circuitpython/Display_Images_FromPiBeam/image_display.py) : This demonstrates how to display images on a PiBeam display screen.
+   Save whatever example code file you want to try as **main.py** in **Pico/Pico W** or Run directly from Thonny IDE by clicking green play button
+   In [example](https://github.com/sbcshop/PiBeam_Software/tree/main/examples) folder you will find demo example script code to test onboard components of IdentiPi like 
+   - [Display Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/button_demo.py) : code to test display
+   - [Joystick Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/sdcard_demo.py) : code to work with onboard joystick
+   - [Fingerprint Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/transmitter_demo.py) : Register fingerprint using onboard fingerprint sensor 
+   - 
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
- 
+
+
 ## Resources
-  * [Schematic](https://github.com/sbcshop/PiBeam_Hardware/blob/main/Design%20Data/Sch%20PiBeam.pdf)
-  * [Hardware Files](https://github.com/sbcshop/PiBeam_Hardware)
-  * [3D Case Design File](https://github.com/sbcshop/PiBeam_Hardware/blob/main/Mechanical%20Data/PiBeam%20Casing%20STL%20files.zip)
-  * [Step File](https://github.com/sbcshop/PiBeam_Hardware/blob/main/Mechanical%20Data/Step%20PiBeam.step)
+  * [Schematic](https://github.com/sbcshop/IdentiPi_Hardware/blob/main/Design%20Data/Sch%20IdentiPi.pdf)
+  * [Hardware Files](https://github.com/sbcshop/IdentiPi_Hardware)
+  * [Step File](https://github.com/sbcshop/IdentiPi_Hardware/blob/main/Mechanical%20Data/IdentiPi.step)
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
   * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [RP2040 Datasheet](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
-
--->
+  * [Fingerprint Command Manual](https://github.com/sbcshop/IdentiPi_Software/blob/main/documents/Fingerprint%20Sensor%20Command%20Manual.docx.pdf)
 
 ## Related Products
   * [USB Fingerprint](https://shop.sb-components.co.uk/products/usb-fingerprint?_pos=1&_sid=1a14e781e&_ss=r) 
