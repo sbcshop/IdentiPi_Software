@@ -52,15 +52,13 @@ An in-depth setup and working guide for IdentiPi is available on this github.
 
 <img src="https://github.com/sbcshop/IdentiPi_Software/blob/main/images/IdentiPi_pinout.jpg">
 
-- (1) Type A 
-- (2) Programmable LED
-- (3) 1.14” Display
-- (4) IR Transmitter 
-- (5) Power LED
-- (6) IR Receiver
-- (7) RP2040
-- (8), (10) & (11) Programmable Buttons
-- (9) Boot Button
+- 1) 5-Way Joystick
+- 2) 1.14” TFT Display
+- 3) Fingerprint sensor
+- 4) Fingerprint UART breakout
+- 5) Scan Status LED
+- 6) Header pin for Pico 
+- 7) &  8) Pico GPIOs breakout 
 
 ### Interfacing Details
 
