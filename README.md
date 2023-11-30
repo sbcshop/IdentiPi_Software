@@ -133,7 +133,6 @@ When Raspberry Pico W connected with HAT following pins consumed,
    - [Display Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/button_demo.py) : code to test display
    - [Joystick Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/sdcard_demo.py) : code to work with onboard joystick
    - [Fingerprint Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/transmitter_demo.py) : Register fingerprint using onboard fingerprint sensor 
-   - 
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
 
