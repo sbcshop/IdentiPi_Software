@@ -52,13 +52,13 @@ An in-depth setup and working guide for IdentiPi is available on this github.
 
 <img src="https://github.com/sbcshop/IdentiPi_Software/blob/main/images/IdentiPi_pinout.jpg">
 
-- 1) 5-Way Joystick
-- 2) 1.14” TFT Display
-- 3) Fingerprint sensor
-- 4) Fingerprint UART breakout
-- 5) Scan Status LED
-- 6) Header pin for Pico 
-- 7) &  8) Pico GPIOs breakout 
+- (1) 5-Way Joystick
+- (2) 1.14” TFT Display
+- (3) Fingerprint sensor
+- (4) Fingerprint UART breakout
+- (5) Scan Status LED
+- (6) Header pin for Pico 
+- (7) & (8) Pico GPIOs breakout 
 
 ### Interfacing Details
 
