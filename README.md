@@ -146,7 +146,10 @@ With Pico or Pico W connected to IdentiPi, you can proceed to follow below steps
    - [Fingerprint Demo](https://github.com/sbcshop/IdentiPi_Software/blob/main/examples/Demo_Add_Fingerprint.py) : Register fingerprint using onboard fingerprint sensor
    - and [More..](https://github.com/sbcshop/IdentiPi_Software/tree/main/examples)
    
-   Using this sample code as a guide, you can modify, build, and share codes!!  
+   Using this sample code as a guide, you can modify, build, and share codes!!
+   
+   We have provided [_**IdentiPi.py**_](https://github.com/sbcshop/IdentiPi_Software/blob/main/examples/IdentiPi.py) library file with most of commands related to fingerprint operations. You can refer [**Fingerprint Command Manual**](https://github.com/sbcshop/IdentiPi_Software/blob/main/documents/Fingerprint_Sensor_Command_Manual.docx.pdf) to understand more commands and particular response from module to modify or update library file as per your applications.
+     
    
 ## Resources
   * [Schematic](https://github.com/sbcshop/IdentiPi_Hardware/blob/main/Design%20Data/Sch%20IdentiPi.pdf)
@@ -155,7 +158,7 @@ With Pico or Pico W connected to IdentiPi, you can proceed to follow below steps
   * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
   * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [RP2040 Datasheet](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
-  * [Fingerprint Command Manual](https://github.com/sbcshop/IdentiPi_Software/blob/main/documents/Fingerprint%20Sensor%20Command%20Manual.docx.pdf)
+  * [Fingerprint Command Manual](https://github.com/sbcshop/IdentiPi_Software/blob/main/documents/Fingerprint_Sensor_Command_Manual.docx.pdf)
 
 ## Related Products
   * [USB Fingerprint](https://shop.sb-components.co.uk/products/usb-fingerprint?_pos=1&_sid=1a14e781e&_ss=r) 
