@@ -98,7 +98,7 @@ With Pico or Pico W connected to IdentiPi, you can proceed to follow below steps
 - If you already have MicroPython firmware with the inbuilt ST7789 module, then you can skip this step and jump to **step 2** for trying demo codes.
 - In case, you need to add **MicroPython firmware** in Pico of IdentiPi. First, you need to *Press and Hold* the boot button on pico W of IdentiPi, and then, without releasing the button, connect it to PC/laptop using micro USB cable. Check below image for reference,
   
-  <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
+  <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif" width="340" height="228">
 
 - Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
   <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
@@ -108,16 +108,16 @@ With Pico or Pico W connected to IdentiPi, you can proceed to follow below steps
   
 ### 2. Running First Program in IdentiPi
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
-   - Once done start **Thonny IDE application**, Connect IdentiPi with Pico to laptop/PC.
-   - Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
    - Download this github which contains various examples and open anyone of example in Thonny.
+
      <img src= "https://github.com/sbcshop/IdentiPi_Software/blob/main/images/identiPi_git_download.jpg" />
 
-   - Select micropython device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
+   - Now we have **Thonny IDE application** and github example codes, Connect IdentiPi with Pico to laptop/PC. Open any example code in Thonny IDE. Then select micropython device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
 
      <img src="https://github.com/sbcshop/IdentiPi_Software/blob/main/images/board_select.jpg">
   
    - Make sure to save _**IdentiPi.py**_ library file to device to avoid any execution error.
+
       <img src= "https://github.com/sbcshop/IdentiPi_Software/blob/main/images/IdentiPi_library.jpg" />
 
    - Once everything all set, with any demo code open click on green play button to test program on IdentiPi.
@@ -141,9 +141,9 @@ With Pico or Pico W connected to IdentiPi, you can proceed to follow below steps
 
 ### Example Codes
    Try reference demo codes to test onboard components of IdentiPi. Save whatever example code file you want to try as **main.py** in **Pico/Pico W** or Run directly from Thonny IDE by clicking green play button
-   - [Display Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/button_demo.py) : code to test display
-   - [Joystick Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/sdcard_demo.py) : code to work with onboard joystick
-   - [Fingerprint Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/transmitter_demo.py) : Register fingerprint using onboard fingerprint sensor
+   - [Display Demo](https://github.com/sbcshop/IdentiPi_Software/blob/main/examples/Demo_LCD.py) : code to test display
+   - [Joystick Demo](https://github.com/sbcshop/IdentiPi_Software/blob/main/examples/Demo_Joystick.py) : code to work with onboard joystick
+   - [Fingerprint Demo](https://github.com/sbcshop/IdentiPi_Software/blob/main/examples/Demo_Add_Fingerprint.py) : Register fingerprint using onboard fingerprint sensor
    - and [More..](https://github.com/sbcshop/IdentiPi_Software/tree/main/examples)
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
