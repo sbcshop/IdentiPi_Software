@@ -62,7 +62,7 @@ An in-depth setup and working guide for IdentiPi is available on this github.
 
 ### Interfacing Details
 
-<img src="">
+<img src="https://github.com/sbcshop/IdentiPi_Software/blob/main/images/picow_identiPi_interfacing.png" width="478" height="320">
 When Raspberry Pico W connected with HAT following pins consumed,  
 
 - Fingerprint Module interfacing info
@@ -90,42 +90,54 @@ When Raspberry Pico W connected with HAT following pins consumed,
   |GP16 | JY_L |Programmable Joystick button|
   |GP17 | JY_D |Programmable Joystick button|
   |GP18 | JY_Sel |Programmable Joystick button|
-  
- 
-- Breakout GPIOs
-  
-<!-- 
-### 1. Step to install boot Firmware
-   - Every IdentiPi board will be provided with boot firmware already installed, so you can skip this step and directly go to [step 2](https://github.com/sbcshop/PiBeam_Software#2-onboard-led-blink).
-   - If in case you want to install firmware for your PiBeam, Push and hold the BOOT button and plug your PiBeam into the USB port of your computer. Release the BOOT button after your PiBeam is connected to USB port.
-   - It will mount as a Mass Storage Device called RPI-RP2.
-   - Drag and drop the MicroPython UF2 - [PiBeam_firmware](https://github.com/sbcshop/PiBeam_Software/blob/main/PiBeam_firmware.uf2) file provided in this github onto the RPI-RP2 volume. Your PiBeam will reboot. You are now running MicroPython on PiBeam.
-   - If you want to use PiBeam as HID then you will have to install other boot firmware, instruction provided on [link](https://github.com/sbcshop/PiBeam_Software/edit/main/examples/HID_example_circuitpython/) 
 
-### 2. Onboard LED Blink 
+With Pico or Pico W connected to IdentiPi, you can proceed to follow below steps to get start working with IdentiPi. 
+
+### 1. How to Install Boot Firmware in Pico W of IdentiPi 
+
+- If you already have MicroPython firmware with the inbuilt ST7789 module, then you can skip this step and jump to **step 2** for trying demo codes.
+- In case, you need to add **MicroPython firmware** in Pico of IdentiPi. First, you need to *Press and Hold* the boot button on pico W of IdentiPi, and then, without releasing the button, connect it to PC/laptop using micro USB cable. Check below image for reference,
+  
+  <img src="https://github.com/sbcshop/ArdiPi_Software/blob/main/images/pico_bootmode.gif">
+
+- Now your device is in boot mode, and you will see a new mass storage device named "RPI-RP2" as shown in the below figure.
+  <img src= "https://github.com/sbcshop/PiCoder-Software/blob/main/images/RPI_folder.jpg" width="720" height="360"/>
+
+- Download the MicroPython firmware file provided in this repo above as ["**_IdentiPi_firmware.uf2_**"](https://github.com/sbcshop/IdentiPi_Software/blob/main/IdentiPi_firmware.uf2). Drag and drop this **_IdentiPi_firmware.uf2_** file onto the RPI-RP2 volume. Your Pico W will reboot. You are now running MicroPython on IdentiPi's pico.
+  <img src= "https://github.com/sbcshop/IdentiPi_Software/blob/main/images/fimware_upload.jpg" width="626" height="476">
+  
+### 2. Running First Program in IdentiPi
    - Download **Thonny IDE** from [Download link](https://thonny.org/) as per your OS and install it.
-   - Once done start **Thonny IDE application**, Connect PiBeam to laptop/PC.
+   - Once done start **Thonny IDE application**, Connect IdentiPi with Pico to laptop/PC.
    - Select device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
-   - Write simple onboard blink Python code or [Download Led blink code](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/onboardLED_demo.py), then click on the green run button to make your script run on PiBeam. Make sure that you have also saved [PiBeam Library](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/PiBeam.py) file to device to avoid any execution error.
-     
-      <img src= "https://github.com/sbcshop/PiBeam_Software/blob/main/images/LED_blink.png" />
-     
-     Now that we've reached this point, you're executing your script through Thonny IDE, so if you unplug PiBeam, it will stop running. To run your script without using an IDE, simply power up PiBeam and it should run your script, go to step 3.
+   - Download this github which contains various examples and open anyone of example in Thonny.
+     <img src= "https://github.com/sbcshop/IdentiPi_Software/blob/main/images/identiPi_git_download.jpg" />
 
-### 3. How to move your script on PiBeam
-   - Click on File -> Save Copy -> select Raspberry Pi Pico , Then save file as **main.py**
+   - Select micropython device at the bottom right with a suitable COM port, as shown in the below figure. You might get a different COM port.
+
+     <img src="https://github.com/sbcshop/IdentiPi_Software/blob/main/images/board_select.jpg">
+  
+   - Make sure to save _**IdentiPi.py**_ library file to device to avoid any execution error.
+      <img src= "https://github.com/sbcshop/IdentiPi_Software/blob/main/images/IdentiPi_library.jpg" />
+
+   - Once everything all set, with any demo code open click on green play button to test program on IdentiPi.
+
+     <img src= "https://github.com/sbcshop/IdentiPi_Software/blob/main/images/run_program.jpg" />
+
+   - For standalone execution without thonny you need to transfer your script into Pico of IdentiPi as main.py, so when again power up board it will start executing saved script. 
+
+     <img src= "https://github.com/sbcshop/IdentiPi_Software/blob/main/images/standalone_execution.jpg" />
+
+     Try out below provided reference example demo codes and modify to build your own application codes.
+
+### How to move any script codes on Pico/Pico W
+   - Single File transfer, click on **File -> Save Copy -> select Raspberry Pi Pico** , Then save file as **main.py**
      
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Resistive_Software/blob/main/images/transfer_script_pico.gif" />
    
-      In similar way you can add various python code files to Pico of PiBeam. Also you can try out sample codes given here in [examples folder](https://github.com/sbcshop/PiBeam_Software/tree/main/examples). 
-   
-   - But in case if you want to move multiple files at one go, example suppose you are interested to save library files folder, below image demonstrate that
+   - Move multiple files at one go, below image demonstrate that
      
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/images/multiple_file_transfer.gif" />
-   - Here, we need only one library file [PiBeam.py](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/PiBeam.py) for most of our code to try out, so move this to PiBeam with default name
-
-   
--->
 
 ### Example Codes
    Save whatever example code file you want to try as **main.py** in **Pico/Pico W** or Run directly from Thonny IDE by clicking green play button
@@ -135,8 +147,7 @@ When Raspberry Pico W connected with HAT following pins consumed,
    - [Fingerprint Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/transmitter_demo.py) : Register fingerprint using onboard fingerprint sensor 
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
-
-
+   
 ## Resources
   * [Schematic](https://github.com/sbcshop/IdentiPi_Hardware/blob/main/Design%20Data/Sch%20IdentiPi.pdf)
   * [Hardware Files](https://github.com/sbcshop/IdentiPi_Hardware)
