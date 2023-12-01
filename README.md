@@ -140,11 +140,11 @@ With Pico or Pico W connected to IdentiPi, you can proceed to follow below steps
       <img src="https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software/blob/main/images/multiple_file_transfer.gif" />
 
 ### Example Codes
-   Save whatever example code file you want to try as **main.py** in **Pico/Pico W** or Run directly from Thonny IDE by clicking green play button
-   In [example](https://github.com/sbcshop/PiBeam_Software/tree/main/examples) folder you will find demo example script code to test onboard components of IdentiPi like 
+   Try reference demo codes to test onboard components of IdentiPi. Save whatever example code file you want to try as **main.py** in **Pico/Pico W** or Run directly from Thonny IDE by clicking green play button
    - [Display Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/button_demo.py) : code to test display
    - [Joystick Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/sdcard_demo.py) : code to work with onboard joystick
-   - [Fingerprint Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/transmitter_demo.py) : Register fingerprint using onboard fingerprint sensor 
+   - [Fingerprint Demo](https://github.com/sbcshop/PiBeam_Software/blob/main/examples/transmitter_demo.py) : Register fingerprint using onboard fingerprint sensor
+   - and [More..](https://github.com/sbcshop/IdentiPi_Software/tree/main/examples)
    
    Using this sample code as a guide, you can modify, build, and share codes!!  
    
